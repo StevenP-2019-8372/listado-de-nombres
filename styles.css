@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .list-group {
+    width: 50%;
+    margin: auto;
+  }
+  .list-group-item:hover {
+    font-size: 1.5em;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: center;
+  }
